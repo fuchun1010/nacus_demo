@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    nacos:
+      config:
+        data-id: WebNacosConf-dev.yaml
+        group: DEFAULT_GROUP
+

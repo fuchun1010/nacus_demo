@@ -1,0 +1,15 @@
+server:
+  port: 19000
+
+spring:
+  profiles:
+    active: dev
+  application:
+    name: WebNacosConf
+  cloud:
+    nacos:
+      config:
+        group: DEFAULT_GROUP
+        server-addr: 127.0.0.1:18848
+        file-extension: yaml
+
